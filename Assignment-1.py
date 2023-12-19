@@ -1,4 +1,5 @@
 """
+#----------------------ODD OR EVEN---------------------------------------------
 num=int(input("Enter the number:"))
 if(num%2==0):
     print("Number is Even")
@@ -7,7 +8,7 @@ else:
 
     
 
-
+#--------------------------lARGEST OF 3 NUMBERS---------------------------------
 a=int(input("Enter first Number:"))
 b=int(input("Enter second Number:"))
 c=int(input("Enter third Number:"))
@@ -21,7 +22,7 @@ else:
 
 
 
-
+#----------------------------LEAP YEAR-------------------------------------------
 year = int(input("Enter the year"))
 
 if(year%4==0 and year%100!=0):
@@ -32,7 +33,7 @@ else:
     print("Non-Leap Year")
 
 
-
+#------------------------ SUMMING NUMBERS----------------------------------
 num=int(input("Enter the number:"))
 sum=0
 while(num>0):
@@ -44,7 +45,7 @@ print("Sum is:" ,sum)
 
 
 
-
+#------------------------COUNT DOWN-------------------------------------
 num=int(input("Enter the number:"))
 while(num>0):
     print(num);
@@ -52,35 +53,3 @@ while(num>0):
     
 
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
